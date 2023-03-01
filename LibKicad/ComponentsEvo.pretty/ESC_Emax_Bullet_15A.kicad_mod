@@ -49,14 +49,9 @@
   (pad "5" thru_hole rect (at 10.5 -5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp e7dff4e3-e072-4f4c-a6d3-aefff37dbfea))
   (pad "6" thru_hole oval (at 10.5 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 625b7ded-7719-487e-953f-801c71555041))
   (pad "7" thru_hole oval (at 10.5 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 6469a262-c9b2-408e-8629-9fda878ec560))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-    (offset (xyz -10.5 3.75 0))
+  (model "${LIBELEC}/3D/Components/ESC/ESC_Emax_Bullet_15A.stp"
+    (offset (xyz 0 0 2.54))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
-    (offset (xyz 10.5 5.02 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
