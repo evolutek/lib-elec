@@ -1,6 +1,7 @@
 (footprint "657002140101" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "<B>WR-MPC5 THT Single Row Male Header Right Angled\n<br><br></b>THT, 2pins")
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
       (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify bottom))
     (tstamp acc32bca-a612-4510-a1e3-ac8784fc0d50)
@@ -41,8 +42,8 @@
   (fp_line (start 6.025 15.87) (end 6.025 0.57)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d2b29732-0d83-4fa8-b41d-90a39acaab37))
   (pad "" np_thru_hole circle (at 0 7.3) (size 3.1 3.1) (drill 3.1) (layers "*.Cu" "*.Mask") (tstamp dc5c00d3-d3f2-4d17-8d37-dcd098763dc9))
-  (pad "1" thru_hole circle (at 2.85 0) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp 68b5f610-638c-4258-bcaa-49636479c47d))
-  (pad "2" thru_hole circle (at -2.85 0) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp d3090bdb-1e18-4c8d-855a-ea23b3ec2e13))
+  (pad "1" thru_hole roundrect (at 2.85 0) (size 3 3) (drill 1.8) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1) (tstamp 68b5f610-638c-4258-bcaa-49636479c47d))
+  (pad "2" thru_hole circle (at -2.85 0) (size 3 3) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp d3090bdb-1e18-4c8d-855a-ea23b3ec2e13))
   (model ":LIBELEC:3D/Connectors/STP_MPC5_657002140101 (rev1).stp"
     (offset (xyz 0 -8.25 3.75))
     (scale (xyz 1 1 1))

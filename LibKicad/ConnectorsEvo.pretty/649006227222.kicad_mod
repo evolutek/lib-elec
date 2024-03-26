@@ -1,6 +1,7 @@
 (footprint "649006227222" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "<B>WR-MPC4 </B><BR>4.20 mm Male Dual Row Angled Header w. Mounting Pegs,6 pins")
+  (attr through_hole)
   (fp_text reference "REF**" (at 8.42 -5.15) (layer "F.SilkS")
       (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
     (tstamp 15293990-6560-4a74-9207-31492f8cb238)
