@@ -1,6 +1,7 @@
 (footprint "686108188622" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "<b>WR-FPC</b> <br >1.00 mm SMT LIF Horizontal Top Contact,8 Pins")
+  (attr smd)
   (fp_text reference "REF**" (at -8.9 -1.7) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify right bottom))
     (tstamp 329623c0-c9c6-4487-99f7-2337c2474818)
