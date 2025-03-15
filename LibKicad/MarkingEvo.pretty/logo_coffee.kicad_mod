@@ -1,6 +1,6 @@
 (footprint "logo_coffee" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
   (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp ecbdc2a9-e83c-40bb-9926-5577b82c42ae)

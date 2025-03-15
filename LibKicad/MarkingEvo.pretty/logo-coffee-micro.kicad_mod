@@ -1,6 +1,6 @@
 (footprint "logo-coffee-micro" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
   (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 69ef4e9e-7556-474d-8b85-cd7af3c8f0de)
