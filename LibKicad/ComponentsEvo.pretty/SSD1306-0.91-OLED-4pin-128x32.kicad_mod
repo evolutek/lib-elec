@@ -38,7 +38,7 @@
   (pad "3" thru_hole oval (at 17.55 1.27) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp ac9a409d-89c0-4e68-b277-76c813a454bc))
   (pad "4" thru_hole oval (at 17.55 3.81) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp cf0b3c98-3d51-4591-9190-9e687cca0d4f))
   (model "${LIBELEC}/3D/Components/OLED_0.91_128x32.stp"
-    (offset (xyz 19 -6 2.54))
+    (offset (xyz 0 0 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
