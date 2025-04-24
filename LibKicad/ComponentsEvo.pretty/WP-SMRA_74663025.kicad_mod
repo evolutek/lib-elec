@@ -1,6 +1,7 @@
 (footprint "WP-SMRA_74663025" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "<B>WP-SMRA REDCUBE SMT Right Angled 90° without Pins, M3/Ø 3.3 mm\n<BR></B>Thread M2.5 \n<br>Height = 5mm")
+  (attr smd)
   (fp_text reference "REF**" (at 0 -4.1) (layer "F.SilkS")
       (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify bottom))
     (tstamp 939c91e6-1cee-4b29-8aca-08909a65499e)
