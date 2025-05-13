@@ -1,6 +1,7 @@
 (footprint "42854232081X_10POS" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "<b>WS-ROSV</b><br> SMT Rotary Switch with Arrow Type Actuator 7x7 mm")
+  (attr smd)
   (fp_text reference "REF**" (at -0.108 -4.6317) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
     (tstamp 10b62835-440a-4808-8c7a-7e0e6fdcdb52)
