@@ -3,7 +3,7 @@
   (descr "<b>WL-SMTD SMT Mono-color TOP LED Diffused Dome</b><br><br>\n\nSize: 3528 30° dome, SMT, 4pins<br>\n2.8x3.5x3.25mm(LXWXH)")
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.7) (layer "F.SilkS")
-      (effects (font (size 0.560832 0.560832) (thickness 0.048768)) (justify bottom))
+      (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
     (tstamp 29810c6a-16ff-496a-9696-00834e2059d4)
   )
   (fp_text value "WL-SMTD_3528_DOME_150141XX631X0" (at 0 3.4) (layer "F.Fab")
