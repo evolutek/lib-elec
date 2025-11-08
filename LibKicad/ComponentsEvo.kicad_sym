@@ -4475,7 +4475,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Adafruit_PA1616D"
+		(property "Reference" "U?"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4483,7 +4483,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Adafruit_PA1616D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4492,7 +4492,7 @@
 			)
 		)
 		(property "Footprint" "ComponentsEvo:Adafruit PA1616D"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
