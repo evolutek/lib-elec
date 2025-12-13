@@ -187,17 +187,6 @@
 		(layer "F.CrtYd")
 		(uuid "d671fe51-f78f-4e41-95bb-8aa65e13e08e")
 	)
-	(fp_rect
-		(start -13.06 -17.378)
-		(end 13.06 17.378)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "8f04e8e2-cf3b-4eaf-9926-7207fb70868d")
-	)
 	(fp_circle
 		(center -10.16 -14.478)
 		(end -7.21 -14.478)
@@ -541,7 +530,7 @@
 	(embedded_fonts no)
 	(model "${LIBELEC}/3D/Board/Adafruit PA1616D/Adafruit PA1616D.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 12)
 		)
 		(scale
 			(xyz 1 1 1)
