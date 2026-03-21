@@ -3422,7 +3422,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "831026068"
+	(symbol "831025559"
 		(pin_names
 			(offset 0.254)
 		)
@@ -3438,7 +3438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "831026068"
+		(property "Value" "831025559"
 			(at 1.27 -6.35 0)
 			(effects
 				(font
@@ -3447,7 +3447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ComponentsEvo:WE-SPXO_CFPS-9"
+		(property "Footprint" "ComponentsEvo:WE-SPXO_CFPS-39"
 			(at 11.43 -8.89 0)
 			(effects
 				(font
@@ -3456,7 +3456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/831026068.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/831025559.pdf"
 			(at -2.54 0 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "831026068_0_1"
+		(symbol "831025559_0_1"
 			(rectangle
 				(start -5.08 5.08)
 				(end 5.08 -5.08)
@@ -3518,7 +3518,7 @@
 				)
 			)
 		)
-		(symbol "831026068_1_1"
+		(symbol "831025559_1_1"
 			(pin input line
 				(at -7.62 0 0)
 				(length 2.54)
@@ -6499,6 +6499,126 @@
 			)
 		)
 		(symbol "Fan_20x20mm_0_1"
+			(arc
+				(start 0 3.81)
+				(mid -0.0015 0.9048)
+				(end -2.54 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.016)
+				(radius 3.2512)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -0.508)
+				(mid 0 1.0618)
+				(end 2.54 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -0.508)
+				(mid 0.047 0.9315)
+				(end 0 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Fan_30x30mm"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fan_30x30mm"
+			(at -6.35 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "ComponentsEvo:30x30x10_DC_FAN"
+			(at 0 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Fan Motor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Fan_30x30mm_0_1"
 			(arc
 				(start 0 3.81)
 				(mid -0.0015 0.9048)
