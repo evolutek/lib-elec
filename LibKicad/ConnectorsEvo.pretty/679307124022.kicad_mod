@@ -5,29 +5,27 @@
 	(layer "F.Cu")
 	(descr "WR-WTB\n1.50 mm SMT Male Vertical Shrouded Header,7 Pins")
 	(property "Reference" "REF**"
-		(at -8.25 -0.7 0)
+		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "eddeb2ea-43db-4673-a75b-b69d76a49580")
 		(effects
 			(font
-				(size 1.1684 1.1684)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify right bottom)
 		)
 	)
 	(property "Value" "679307124022"
-		(at -8.25 1.5 0)
+		(at 0 4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "002df00f-144e-4303-a49a-97295c66df92")
 		(effects
 			(font
-				(size 1.1684 1.1684)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify right bottom)
 		)
 	)
 	(property "Datasheet" ""
@@ -54,6 +52,7 @@
 			)
 		)
 	)
+	(attr smd)
 	(fp_line
 		(start -6.85 1)
 		(end -6.85 1.95)
@@ -104,16 +103,17 @@
 		(layer "F.SilkS")
 		(uuid "8b836942-8592-439a-a15b-a0c26c808cf7")
 	)
-	(fp_circle
-		(center -5.35 -0.4)
-		(end -5.25 -0.4)
+	(fp_poly
+		(pts
+			(xy -4.5 3.5) (xy -4.75 4) (xy -4.25 4)
+		)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "6aebec4b-648f-48c5-a2fb-a3b74148b00a")
+		(uuid "bec2be8e-b669-4474-98e0-88f1ab0d3c8a")
 	)
 	(fp_poly
 		(pts
