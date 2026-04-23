@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.175 -4.445 0)
+		(at 0 -6 0)
 		(layer "F.SilkS")
 		(uuid "dc8130c4-4339-4ba5-8774-9a43ab0a5510")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "MOLEX_1051620001"
-		(at 0 6.4 0)
+		(at 0 -4.5 0)
 		(layer "F.Fab")
 		(uuid "90ef8b6a-4f07-4e8b-a897-46c66d34f605")
 		(effects
@@ -213,6 +213,26 @@
 		(uuid "a836e91a-f59c-46ec-b8ff-3471e0ac45e1")
 	)
 	(fp_line
+		(start -5.15 3.225)
+		(end -5.15 11.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea754000-648b-4fda-85fa-97f1d464481e")
+	)
+	(fp_line
+		(start -5.15 11.925)
+		(end 5.85 11.925)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "17c9bd66-8559-4188-9744-2389813ac86d")
+	)
+	(fp_line
 		(start 5.65 -3.225)
 		(end 5.65 3.225)
 		(stroke
@@ -231,6 +251,26 @@
 		)
 		(layer "F.Fab")
 		(uuid "2a7777d6-34ca-4475-af2d-0b55ecf219d0")
+	)
+	(fp_line
+		(start 5.85 3.225)
+		(end 5.65 3.225)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0d654d43-b9b2-4b05-8234-682ffb9203f9")
+	)
+	(fp_line
+		(start 5.85 3.225)
+		(end 5.85 11.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1035d90b-5cee-423d-b184-dc272c9a4bb7")
 	)
 	(pad "1" smd rect
 		(at 3.565 4.085)
