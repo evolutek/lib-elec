@@ -1,0 +1,194 @@
+(footprint "XL-2020RGBC-2812B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>WL-ICLED Integrated Controller within LED<br><br></b>Size: Chip LED 2020, SMT, 4pins<br>LXWXH=2X2X0.9mm")
+	(property "Reference" "REF**"
+		(at 0 -2.435 0)
+		(layer "F.SilkS")
+		(uuid "6353e5a9-e187-479b-8455-06025403a2e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XL-2020RGBC-2812B"
+		(at 0 2.365 0)
+		(layer "F.Fab")
+		(uuid "2eb4a256-1bb6-47b1-acd4-c71fccba7a0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec4c85ea-ed65-4963-a26f-091849c2c32a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99c3b374-c6c5-4fdb-aa06-b62abf441456")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -1.1)
+		(end -1.1 1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "803e75f2-678b-4fb2-b628-bafcc38905b2")
+	)
+	(fp_line
+		(start -1.1 -1.1)
+		(end 1.1 -1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e530ac9a-706d-4c23-ad61-fa4b4b0a97a9")
+	)
+	(fp_line
+		(start -1.1 1.1)
+		(end 1.1 1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6f11903-07ef-49be-ab70-edb4cf9b7b85")
+	)
+	(fp_line
+		(start 1.1 -1.1)
+		(end 1.1 1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22875a2b-cc68-47a4-9b0e-e7aff577d97d")
+	)
+	(fp_poly
+		(pts
+			(xy 1.25 0.7) (xy 1.5 0.5) (xy 1.5 0.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "fb6fd2f9-0a1b-436e-b1a5-40ebd4c2e696")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -1.2) (xy 1.2 -1.2) (xy 1.2 1.2) (xy -1.2 1.2)
+		)
+		(stroke
+			(width 0.015)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8776ecf5-56ff-49a1-bbc4-15bdf86dfb7c")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8970cf4d-850c-4662-9f92-59b720cb3d7b")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98fb1a3b-eb96-4521-8846-78ebf90dc359")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de378d01-4331-4386-9d93-91086b63e097")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8790f5db-a031-4954-986e-99e81d56da83")
+	)
+	(pad "1" smd rect
+		(at 0.675 0.625)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "baec6cc8-5522-45ce-ba77-292fec81fae9")
+	)
+	(pad "2" smd rect
+		(at 0.675 -0.625)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b2db15c-41c8-43fd-a105-8b436bcfc68a")
+	)
+	(pad "3" smd rect
+		(at -0.675 -0.625)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07c0c9e5-2e75-4ab6-931c-59e44bc14c11")
+	)
+	(pad "4" smd rect
+		(at -0.675 0.625)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e985c982-76e9-4063-8d2f-1ca00d9416a3")
+	)
+	(embedded_fonts no)
+	(model "${LIBELEC}/3D/Components/User Library-WS2812-2020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
