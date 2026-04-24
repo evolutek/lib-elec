@@ -28479,7 +28479,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -11.43 16.51 0)
 				(length 2.54)
 				(name "VIN"
@@ -28497,7 +28497,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -11.43 16.51 0)
 				(length 2.54)
 				(hide yes)
@@ -28778,7 +28778,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -11.43 16.51 0)
 				(length 2.54)
 				(name "VIN"
@@ -28796,7 +28796,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -11.43 16.51 0)
 				(length 2.54)
 				(hide yes)
