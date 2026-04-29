@@ -1,4 +1,4 @@
-(footprint "SM05B-PASS-TB_LF__SN_"
+(footprint "SM05B-PASS-TB_LF__SN"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SM05B-PASS-TB_LF__SN_"
+	(property "Value" "SM05B-PASS-TB_LF__SN"
 		(at 0 6.5 180)
 		(layer "F.Fab")
 		(uuid "e1999e2c-938c-4edd-a368-f8ae55b0d0df")
@@ -168,7 +168,7 @@
 		(uuid "f5d6aab3-40d4-4dfc-bf5f-9132ebde0915")
 	)
 	(pad "MP" smd rect
-		(at -6.28 -0.28)
+		(at -6.4 -0.28)
 		(size 1.8 3.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
