@@ -1072,7 +1072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MarkingEvo:logo-crow"
+		(property "Footprint" "MarkingEvo:Logo-crow 17mm"
 			(at 0 0 0)
 			(effects
 				(font
