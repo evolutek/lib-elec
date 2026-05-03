@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -27.6 1.2)
-		(end -27.6 -25.1)
+		(start -27.6 1)
+		(end -27.6 -25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65,8 +65,8 @@
 		(uuid "f006a212-7eab-479a-8fb7-25be3dd6c987")
 	)
 	(fp_line
-		(start -25.1 -27.6)
-		(end 25.1 -27.6)
+		(start -25.000001 -27.6)
+		(end 25 -27.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -155,8 +155,8 @@
 		(uuid "57603f47-6978-4637-be95-050dfc97197a")
 	)
 	(fp_line
-		(start 25.1 3.7)
-		(end -25.1 3.7)
+		(start 25 3.6)
+		(end -25 3.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -165,8 +165,8 @@
 		(uuid "d0fe555a-f343-425f-915b-b9163d70fca8")
 	)
 	(fp_line
-		(start 27.6 -25.1)
-		(end 27.6 1.2)
+		(start 27.6 -25)
+		(end 27.6 1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -175,48 +175,48 @@
 		(uuid "0fd26971-4f80-4f42-99f1-edf9677b198e")
 	)
 	(fp_arc
-		(start -27.6 -25.1)
-		(mid -26.867767 -26.867767)
-		(end -25.1 -27.6)
+		(start -27.6 -25)
+		(mid -26.838478 -26.838478)
+		(end -25 -27.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3fb587c1-6f3c-4767-8e01-011fd6e2a404")
+		(uuid "00cbcbea-f9b7-4c8f-8c75-495c8f31f18a")
 	)
 	(fp_arc
-		(start -25.1 3.7)
-		(mid -26.867767 2.967767)
-		(end -27.6 1.2)
+		(start -25 3.6)
+		(mid -26.838478 2.838478)
+		(end -27.6 1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7a940509-f37c-44d0-8765-a75aa7ae7d36")
+		(uuid "5869c2f7-6dc6-4c58-87a6-87edaec53042")
 	)
 	(fp_arc
-		(start 25.1 -27.6)
-		(mid 26.867767 -26.867767)
-		(end 27.6 -25.1)
+		(start 25 -27.6)
+		(mid 26.838478 -26.838478)
+		(end 27.6 -25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "aa2eeaf9-3f98-409a-ab95-f763c1a7f82c")
+		(uuid "1ab187c7-6798-4849-9760-6c5bcc3c78e6")
 	)
 	(fp_arc
-		(start 27.6 1.2)
-		(mid 26.867767 2.967767)
-		(end 25.1 3.7)
+		(start 27.6 1)
+		(mid 26.838478 2.838478)
+		(end 25 3.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b2084701-682d-4599-97b3-d7e9ddb802b5")
+		(uuid "742928cc-e26d-452c-84cf-0d59028b744c")
 	)
 	(fp_poly
 		(pts
